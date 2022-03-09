@@ -1,18 +1,22 @@
-/*This function creates filter for state search which has all the names of states as input and then 
-exports a select dropdown along with names of states.*/
+/**
+ * This function is defined to display state names in dropdown.
+ * @param {*} props - for state names
+ * @returns dropdown with state names
+ */
+
 function FilterForStateMaps(props) {
-    const renderFilteredData = () => {
+    const showStateNamesInDropDown = () => {
         if(props.statedata) {
-            const filterRows = props.statedata.map((elem) => {
+            const stateDDRows = props.statedata.map((elem) => {
                 return <option value = {elem}>{elem}</option>
             })
-        return filterRows
+        return stateDDRows
     }
 }
     return (
     <div class = "stateLabelPadding">
         <label for="dropdown" class = "stateLabelPadding">Select State :</label>
-        <select id = "dropdown" onChange = {(e) => props.setFilterData(e.target.value)}>{renderFilteredData()}
+        <select id = "dropdown" onChange = {(e) => props.setFilterData(e.target.value)}>{showStateNamesInDropDown()}
         </select>
     </div>
     )
