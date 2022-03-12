@@ -56,7 +56,6 @@ export default function StateChart(props) {
     const prepareChart = () => {
         
         if(props) {
-            console.log(props)
             const data = {
                 labels: props.citiesData,
                 datasets: [
