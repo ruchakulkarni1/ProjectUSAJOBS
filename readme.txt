@@ -1,10 +1,8 @@
 Project USA Maps.
-Members: Siri, Rucha, Larrisa
-Push try 2
+Authors: Siri, Rucha, Larrisa
 
+This project has been deployed on web.
+URL: "https://sirikoduru24.github.io/ProjectUSAJOBS/"
 
-This is readme file for USAJobs Dashboard.
-
-Sample Push -- By Rucha, Siri, Larrisa
-
-Troubleshooting git problem
+This dashboard shows avaialable job counts in each state in the USA. A user can check jobs available in city as well. 
+Use specific filters to look for a job in different fields, different state, full-time or part-time, with expected salary range.
